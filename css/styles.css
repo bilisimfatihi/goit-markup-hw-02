@@ -1,0 +1,299 @@
+body{
+    font-family: "Roboto",sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 2%;
+    background-color: #E5E5E5;
+}
+h1{
+    font-weight: bold;
+    size: 56px;
+    letter-spacing: 2%;
+    line-height: 60px;
+}
+h2 {
+    font-weight: bold;
+    font-size: 36px;
+    letter-spacing: 2%;
+}
+h3 {
+    font-weight:medium;
+    font-size: 20px;
+    letter-spacing: 2%;
+}
+.small {
+    font-weight: regular;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 4%;
+}
+.medium {
+    font-weight: medium;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 2%;
+}
+.button .text {
+    font-weight: medium;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 4%;
+}
+a {
+    font-weight: regular;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 2%;
+    text-decoration: none;
+}
+.container{
+    width: 1440px;
+    margin: 0 auto;
+}
+header{
+    overflow: hidden;
+    height: 72px;
+    background-color: #FFFFFF;
+}
+.header{
+    display: block;
+    margin: 24px 156px 0px 156px;
+}
+.logo{
+    font-family: "Raleway", sans-serif ;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 21px;
+    display: inline-block;
+}
+.header .logo a{
+    font-size: 18px;
+}
+
+.logo .word1{
+    color: #4D5AE5;
+
+}
+.logo .word2 {
+    color: #2E2F42;
+}
+.menu-nav {
+    display: inline-block;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 16px;
+    letter-spacing: 2%;
+    margin-left: 76px;
+}
+.menu-nav a{
+    padding-right: 40px;
+    color: #2E2F42;
+    font-size: 16px;
+}
+.menu-nav a:hover,.address a:hover {
+    color: #404BBF;
+}
+.menu-nav a:active {
+    color: #404BBF;
+}
+.address {
+    float: right;
+}
+.address a {
+    color: #2E2F42;
+    font-size: 16px;
+}
+.address ul{
+    margin: 0px;
+}
+.address li{
+    list-style: none;
+    margin-left: 40px;
+    font-style: normal;
+    float: left;
+}
+.address{
+    display: inline-block;
+    font-weight: 400;
+    font-size: 16px;
+    font-style: normal;
+    color: #434445;
+}
+.address a{
+    font-size: 16px;
+    font-style: normal;
+}
+.hero-image{
+    display: block;
+    position: relative;
+    height: 600px;
+    background-color: #2E2F42;
+}
+.div-hero-image{
+    display: inline-block;
+    position: absolute;
+    margin: 188px 472px;
+}
+.hero-image h1{
+    text-align: center;
+    color: white;
+    font-size: 56px;
+    width: 496px;
+    margin: 0px;
+    margin: auto;
+}
+.hero-image button{
+    margin: 48px 164px;
+    width: 169px;
+    height: 56px;
+    display: inline-block;
+    background-color: #4D5AE5 ;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.hero-image button:hover{
+    background-color: #404BBF;
+    border: none;
+}
+
+.section-1 {
+    display: block;
+    position: relative;
+    height: 344px;
+    background-color: #FFFFFF;
+}
+.div-list{
+    margin: 70px 156px ;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 1128px;
+    height: 104px;
+    margin-left: -564px;
+    margin-top: -52px;
+    
+}
+.div-list li{
+    list-style: none;
+    display: inline-block;
+    width: 264px;
+    height: 104px;
+    margin: 2px 5px;
+}
+.div-list ul,.div-list ul h3,.div-list ul p{
+    padding: 0px;
+    margin: 0px;
+}
+.section-2 {
+    display: block;
+    height: 732px;
+    background-color: #F4F4FD;
+    text-align: center;
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+.section-2 h2{
+    text-align: center;
+    margin-bottom: 72px;
+}
+.section-2 .card {
+    display: inline-block;
+    text-align: center;
+    margin-right: 24px;
+    background-color: white;
+    border-radius: 0px 0px 4px 4px;
+    box-shadow: 0px 1px 6px rgba(46,47,66,0.8),
+        0px 1px 1px rgba(46, 47, 66, 0.16),
+        0px 2px 1px rgba(46, 47, 66, 0.8);
+}
+.card-content {
+    height: 120px;
+    padding: 32px;
+}
+.card-content h3{
+    margin: 0px 0px 0px 0px;
+    color: #2E2F42;
+}
+.card-content p {
+    margin: 8px 0px 0px 0px;
+    color: #434455;
+}
+
+.section-3 {
+    display: block;
+    text-align: center;
+    padding-top: 120px;
+    padding-bottom: 120px;
+    background-color: #FFFFFF;
+}
+.div-section-3{
+    height: 1000px;
+}
+
+.div-section-3 .row{
+    margin-bottom: 48px;
+}
+.section-3 h2 {
+    text-align: center;
+    margin-bottom: 72px;
+}
+
+.section-3 .card {
+    display: inline-block;
+    text-align: center;
+    margin-right: 24px;
+    background-color: white;
+    border: 1px solid #E7E9FC;
+}
+
+.section-3 .card-content {
+    height: 120px;
+    padding: 32px;
+    text-align: left;
+    
+}
+
+.section-3 .card-content h3 {
+    margin: 0px 0px 0px 0px;
+    color: #2E2F42;
+}
+
+.section-3 .card-content p {
+    margin: 8px 0px 0px 0px;
+    color: #434455;
+}
+
+footer{
+    background-color: #2E2F42;
+    height: 312px;
+    display: block;
+}
+.div-footer{
+    display: inline-block;
+    margin: 100px;
+}
+.div-footer .logo a{
+    font-family: "Raleway", sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 21px;
+    text-transform: uppercase;
+    display: inline-block;
+
+}
+
+.div-footer .logo .word1 {
+    color: #4D5AE5;
+
+}
+
+.div-footer .logo .word2 {
+    color: #F4F4FD;
+}
+.div-footer p{
+    color: #F4F4FD;
+    width: 264px;
+}
