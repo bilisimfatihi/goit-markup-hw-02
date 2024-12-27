@@ -51,46 +51,36 @@ a {
 .container{
     margin: 0 auto;
 }
+
+//*
 header{
-    overflow: hidden;
-    height: 72px;
-    background-color: #FFFFFF;
+
 }
 .header{
-    display: block;
-    margin: 24px 156px 0px 156px;
+
 }
+*//
 .logo{
     font-family: "Raleway", sans-serif ;
     font-weight: bold;
     font-size: 18px;
-    line-height: 21px;
-    display: inline-block;
-}
-.header .logo a{
-    font-size: 18px;
+    line-height:1.17px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
 }
 
-.logo .word1{
-    color: #4D5AE5;
-
-}
-.logo .word2 {
+.logo .word {
     color: #2E2F42;
 }
-.menu-nav {
-    display: inline-block;
+.menu-link{
     font-weight: 500;
     font-size: 16px;
-    line-height: 16px;
-    letter-spacing: 2%;
-    margin-left: 76px;
-}
-.menu-nav a{
-    padding-right: 40px;
+    line-height: 1.5px;
+    letter-spacing: 0.02em;
     color: #2E2F42;
-    font-size: 16px;
 }
+
 .menu-nav a:hover,.address a:hover {
     color: #404BBF;
 }
