@@ -4,7 +4,8 @@ body{
     font-size: 16px;
     line-height: 24px;
     letter-spacing: 2%;
-    background-color: #E5E5E5;
+    color: #434455;
+    background-color: #FFFFFF;
 }
 h1{
     font-weight: bold;
@@ -48,7 +49,6 @@ a {
     text-decoration: none;
 }
 .container{
-    width: 1440px;
     margin: 0 auto;
 }
 header{
@@ -126,27 +126,22 @@ header{
 }
 .hero-image{
     display: block;
-    position: relative;
     height: 600px;
     background-color: #2E2F42;
 }
 .div-hero-image{
     display: inline-block;
-    position: absolute;
     margin: 188px 472px;
 }
 .hero-image h1{
     text-align: center;
     color: white;
     font-size: 56px;
-    width: 496px;
     margin: 0px;
     margin: auto;
 }
 .hero-image button{
     margin: 48px 164px;
-    width: 169px;
-    height: 56px;
     display: inline-block;
     background-color: #4D5AE5 ;
     color: white;
@@ -161,17 +156,11 @@ header{
 
 .section-1 {
     display: block;
-    position: relative;
     height: 344px;
     background-color: #FFFFFF;
 }
 .div-list{
     margin: 70px 156px ;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    width: 1128px;
-    height: 104px;
     margin-left: -564px;
     margin-top: -52px;
     
@@ -179,8 +168,6 @@ header{
 .div-list li{
     list-style: none;
     display: inline-block;
-    width: 264px;
-    height: 104px;
     margin: 2px 5px;
 }
 .div-list ul,.div-list ul h3,.div-list ul p{
@@ -295,5 +282,4 @@ footer{
 }
 .div-footer p{
     color: #F4F4FD;
-    width: 264px;
 }
