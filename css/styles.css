@@ -64,7 +64,7 @@ header{
     font-family: "Raleway", sans-serif ;
     font-weight: 700;
     font-size: 18px;
-    line-height:1.17px;
+    line-height:1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
@@ -81,21 +81,33 @@ header{
     color: #2E2F42;
 }
 
+.menu-link:hover{
+    color: #404bbf
+}
+.menu-link:focus {
+    color: #404bbf
+}
+/*
 .menu-nav li a:hover,.address a:hover {
     color: #404BBF;
 }
 .menu-nav li a:active {
     color: #404BBF;
-}
+}*/
 address {
     font-style: normal;
 }
-.adress-link a{
+.adress-link{
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
-
+}
+.adress-link:hover{
+    color: #404bbf;
+}
+.adress-link:focus {
+    color: #404bbf;
 }
 /*
 .address a {
