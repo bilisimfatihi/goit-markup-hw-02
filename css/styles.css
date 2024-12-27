@@ -62,7 +62,7 @@ header{
 *//
 .header-logo{
     font-family: "Raleway", sans-serif ;
-    font-weight: bold;
+    font-weight: 700;
     font-size: 18px;
     line-height:1.17px;
     letter-spacing: 0.03em;
@@ -70,7 +70,7 @@ header{
     color: #4d5ae5;
 }
 
-.header-logo .word {
+.header-logo-word {
     color: #2E2F42;
 }
 .menu-link{
