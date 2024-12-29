@@ -117,14 +117,14 @@ address {
 .section-1 {
     background-color: #FFFFFF;
 }
-.section-1-list-baslik3{
+.section-1-list-header3{
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2E2F42
 }
-.section-1-list-paragraf {
+.section-1-list-paragraph {
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
@@ -134,7 +134,7 @@ address {
 .section-2 {
     background-color: #F4F4FD;
 }
-.section-2-title2{
+.section-2-header2{
     font-size: 36px;
     line-height: 1.11;
     text-align: center;
