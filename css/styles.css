@@ -7,47 +7,7 @@ body{
     color: #434455;
     background-color: #FFFFFF;
 }
-h1{
-    font-weight: bold;
-    size: 56px;
-    letter-spacing: 2%;
-    line-height: 60px;
-}
-h2 {
-    font-weight: bold;
-    font-size: 36px;
-    letter-spacing: 2%;
-}
-h3 {
-    font-weight:medium;
-    font-size: 20px;
-    letter-spacing: 2%;
-}
-.small {
-    font-weight: regular;
-    font-size: 12px;
-    line-height: 14px;
-    letter-spacing: 4%;
-}
-.medium {
-    font-weight: medium;
-    font-size: 16px;
-    line-height: 24px;
-    letter-spacing: 2%;
-}
-.button .text {
-    font-weight: medium;
-    font-size: 16px;
-    line-height: 24px;
-    letter-spacing: 4%;
-}
-a {
-    font-weight: regular;
-    font-size: 12px;
-    line-height: 16px;
-    letter-spacing: 2%;
-    text-decoration: none;
-}
+
 .header-logo{
     font-family: "Raleway", sans-serif ;
     font-weight: 700;
