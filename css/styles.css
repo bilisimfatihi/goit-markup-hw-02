@@ -127,7 +127,6 @@ address {
 .section-1-list-p {
     font-size: 16px;
     font-weight: 500;
-    font-size: 20px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455
@@ -144,7 +143,7 @@ address {
     color: #2E2F42;
 }
 .section-2-li {
-    background-color: white;
+    background-color: #FFFFFF;
 }
 .section-2-li-h3{
     font-size: 20px;
