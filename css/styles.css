@@ -117,7 +117,7 @@ address {
 .section-1 {
     background-color: #FFFFFF;
 }
-.section-1-title2{
+.section-1-list-baslik3{
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -134,7 +134,7 @@ address {
 .section-2 {
     background-color: #F4F4FD;
 }
-.section-2-h2{
+.section-2-title2{
     font-size: 36px;
     line-height: 1.11;
     text-align: center;
@@ -161,7 +161,7 @@ address {
 .section-3 {
     background-color: #FFFFFF;
 }
-.section-3-h2 {
+.section-3-header2 {
     font-size: 36px;
     line-height: 1.11;
     letter-spacing: 0.02em;
@@ -169,14 +169,14 @@ address {
     text-transform: capitalize;
     color: #2E2F42;
 }
-.section-3-h3 {
+.section-3-header3 {
     font-size: 20px;
     font-weight: 500;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2E2F42;
 }
-.section-3-p {
+.section-3-paragraph {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
