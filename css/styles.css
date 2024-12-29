@@ -91,7 +91,7 @@ address {
 .section-hero-image{
     background-color: #2E2F42;
 }
-.section-hero-image-h1{
+.section-hero-image-baslik{
     text-align: center;
     color: white;
     font-size: 56px;
@@ -117,14 +117,14 @@ address {
 .section-1 {
     background-color: #FFFFFF;
 }
-.section-1-list-h3{
+.section-1-title2{
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2E2F42
 }
-.section-1-list-p {
+.section-1-list-paragraf {
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
