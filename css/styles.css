@@ -136,46 +136,63 @@ address {
 }
     **/
 .hero-image{
-    display: block;
-    height: 600px;
     background-color: #2E2F42;
 }
+/*
 .div-hero-image{
     display: inline-block;
     margin: 188px 472px;
 }
-.hero-image h1{
+    */
+.section-hero-image-h1{
     text-align: center;
     color: white;
     font-size: 56px;
-    margin: 0px;
-    margin: auto;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
 }
-.hero-image button{
-    margin: 48px 164px;
-    display: inline-block;
+.section-hero-image-btn{
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
     background-color: #4D5AE5 ;
     color: white;
-    border: none;
-    border-radius: 4px;
     cursor: pointer;
 }
-.hero-image button:hover{
+.section-hero-image-btn:hover{
     background-color: #404BBF;
-    border: none;
 }
-
+.section-hero-image-btn:focus {
+    background-color: #404BBF;
+}
 .section-1 {
-    display: block;
-    height: 344px;
     background-color: #FFFFFF;
 }
+.section-1-list-h3{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2E2F42
+}
+.section-1-list-p {
+    font-size: 16px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455
+}
+/*
 .div-list{
     margin: 70px 156px ;
     margin-left: -564px;
     margin-top: -52px;
     
 }
+    
 .div-list li{
     list-style: none;
     display: inline-block;
@@ -185,38 +202,38 @@ address {
     padding: 0px;
     margin: 0px;
 }
+        */
 .section-2 {
-    display: block;
-    height: 732px;
     background-color: #F4F4FD;
-    text-align: center;
-    padding-top: 120px;
-    padding-bottom: 120px;
 }
-.section-2 h2{
+.section-2-h2{
+    font-size: 36px;
+    line-height: 1.11;
     text-align: center;
-    margin-bottom: 72px;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2E2F42;
 }
-.section-2 .card {
-    display: inline-block;
-    text-align: center;
-    margin-right: 24px;
+.section-2-li-card {
     background-color: white;
-    border-radius: 0px 0px 4px 4px;
-    box-shadow: 0px 1px 6px rgba(46,47,66,0.8),
-        0px 1px 1px rgba(46, 47, 66, 0.16),
-        0px 2px 1px rgba(46, 47, 66, 0.8);
 }
+/*
 .card-content {
     height: 120px;
     padding: 32px;
 }
-.card-content h3{
-    margin: 0px 0px 0px 0px;
+    */
+.section-2-li-card-h3{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
     color: #2E2F42;
 }
-.card-content p {
-    margin: 8px 0px 0px 0px;
+.section-2-li-card-p {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
     color: #434455;
 }
 
