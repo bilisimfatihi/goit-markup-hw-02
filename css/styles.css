@@ -238,76 +238,52 @@ address {
 }
 
 .section-3 {
-    display: block;
-    text-align: center;
-    padding-top: 120px;
-    padding-bottom: 120px;
     background-color: #FFFFFF;
 }
-.div-section-3{
-    height: 1000px;
-}
 
-.div-section-3 .row{
-    margin-bottom: 48px;
-}
-.section-3 h2 {
+.section-3-h2 {
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
     text-align: center;
-    margin-bottom: 72px;
-}
-
-.section-3 .card {
-    display: inline-block;
-    text-align: center;
-    margin-right: 24px;
-    background-color: white;
-    border: 1px solid #E7E9FC;
-}
-
-.section-3 .card-content {
-    height: 120px;
-    padding: 32px;
-    text-align: left;
-    
-}
-
-.section-3 .card-content h3 {
-    margin: 0px 0px 0px 0px;
+    text-transform: capitalize;
     color: #2E2F42;
 }
 
-.section-3 .card-content p {
-    margin: 8px 0px 0px 0px;
+.section-3-h3 {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+}
+
+.section-3-p {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
     color: #434455;
 }
 
-footer{
+.footer{
     background-color: #2E2F42;
-    height: 312px;
-    display: block;
 }
-.div-footer{
-    display: inline-block;
-    margin: 100px;
-}
-.div-footer .logo a{
+.footer-logo-a{
     font-family: "Raleway", sans-serif;
-    font-weight: bold;
+    font-weight: 700;
     font-size: 18px;
-    line-height: 21px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
     text-transform: uppercase;
-    display: inline-block;
-
-}
-
-.div-footer .logo .word1 {
     color: #4D5AE5;
-
 }
 
-.div-footer .logo .word2 {
+.footer-logo-word {
     color: #F4F4FD;
 }
-.div-footer p{
+
+.footer-p{
+    line-height: 1.5;
+    letter-spacing: 0.02em;
     color: #F4F4FD;
 }
