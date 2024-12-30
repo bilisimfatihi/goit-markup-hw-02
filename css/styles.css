@@ -91,10 +91,10 @@ address {
     letter-spacing: 0.02em;
     color: #434455
 }
-.section-2 {
+.section-third {
     background-color: #F4F4FD;
 }
-.section-2-header2{
+.section-third-header{
     font-size: 36px;
     line-height: 1.11;
     text-align: center;
@@ -102,26 +102,26 @@ address {
     text-transform: capitalize;
     color: #2E2F42;
 }
-.section-2-li {
+.section-third-item {
     background-color: #FFFFFF;
 }
-.section-2-li-h3{
+.section-third-item-header{
     font-size: 20px;
     font-weight: 500;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2E2F42;
 }
-.section-2-li-p {
+.section-third-item-paragraph {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
 }
-.section-3 {
+.section-fourth {
     background-color: #FFFFFF;
 }
-.section-3-header2 {
+.section-fourth-header {
     font-size: 36px;
     line-height: 1.11;
     letter-spacing: 0.02em;
@@ -129,14 +129,14 @@ address {
     text-transform: capitalize;
     color: #2E2F42;
 }
-.section-3-header3 {
+.section-fourth-item-header {
     font-size: 20px;
     font-weight: 500;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2E2F42;
 }
-.section-3-paragraph {
+.section-fourth-item-paragraph {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
